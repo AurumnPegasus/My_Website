@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Chilanka|Dosis:400,700|Hind+Madurai|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="bootstrap_native.js"></script>
+    <title>AurumnPegasus</title>
+</head>
+
+<body>
+    <div id="makesticky" class="navbarbg">
+        <a id="my_name" class="nav_button">
+            Shivansh Subramanian
+        </a>
+        <a href="../index.html#main_section" id="home" class="nav_button">
+            Home
+        </a>
+        <a href="../index.html#second_section" id="about" class="nav_button">
+            About Me
+        </a>
+        <a href="../index.html#third_section" id="skills" class="nav_button">
+            Skills
+        </a>
+        <a href="../index.html#fourth_section" id="contact" class="nav_button">
+            Contact
+        </a>
+    </div>
+
+    <div class="contain_ver">
+        <div id="ver_nav" class="navbarbutton">
+            <div class="dropdown">
+                <button class="dropbtn" id="btn_dropdown" onclick="opendropdown()">
+                    Shivansh Subramanian
+                </button>
+                <div class="dropdown-content" id="drop" style="display: none;">
+                    <a href="../index.html#main_section" class="dpdbtn">Home</a>
+                    <a href="../index.html#second_section" class="dpdbtn">About Me</a>
+                    <a href="../index.html#third_section" class="dpdbtn">Skills</a>
+                    <a href="../index.html#fourth_section" class="dpdbtn">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="visit" style="margin: 30vh;">
+        Number of times visited is <br>
+        <p id="vis" style="font-family: Dosis; font-size: large;"></p>
+    </div>
+    <script src="../js/index.js"></script>
+    <script src="../js/visits.js"></script>
+</body>
+
+</html>

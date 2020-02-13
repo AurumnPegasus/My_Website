@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Chilanka|Dosis:400,700|Hind+Madurai|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="bootstrap_native.js"></script>
+    <title>AurumnPegasus</title>
+</head>
+
+<body onload="typeWriter()">
+    <div id="makesticky" class="navbarbg">
+        <a id="my_name" class="nav_button">
+            Shivansh Subramanian
+        </a>
+        <a href="#main_section" id="home" class="nav_button">
+            Home
+        </a>
+        <a href="#second_section" id="about" class="nav_button">
+            About Me
+        </a>
+        <a href="#third_section" id="skills" class="nav_button">
+            Skills
+        </a>
+        <a href="#fourth_section" id="contact" class="nav_button">
+            Contact
+        </a>
+    </div>
+
+    <div class="contain_ver">
+        <div id="ver_nav" class="navbarbutton">
+            <div class="dropdown">
+                <button class="dropbtn" id="btn_dropdown" onclick="opendropdown()">
+                    Shivansh Subramanian
+                </button>
+                <div class="dropdown-content" id="drop" style="display: none;">
+                    <a href="#main_section" class="dpdbtn">Home</a>
+                    <a href="#second_section" class="dpdbtn">About Me</a>
+                    <a href="#third_section" class="dpdbtn">Skills</a>
+                    <a href="#fourth_section" class="dpdbtn">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <section id="main_section" class="full_section">
+        <div id="picture">
+        </div>
+        <div id="home_text_container">
+            <div id="home_text">
+                <div id="home_head">
+
+                </div>
+                <div id="home_body">
+                    I am a student at IIIT-Hyderabad studying
+                    <br>
+                    <span class="typewrite" data-period="2000" data-type='[ "Computational Linguistics", "Competitive Coding", "Software Systems Design", "Android Development", "Web Development", "Abstract Mathematics", "Computer Systems", "Adobe Photoshop" ]'>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="second_section" class="full_section">
+        <div id="timeline">
+            <div class="timeline_side_item">
+                <div class="side_about">
+
+                </div>
+                <div class="main_about">
+                    <div class="header_about">
+                        About Me
+                    </div>
+                    <div class="body_about">
+                        I am just a normal person who does coding for fun. I love participating and contributing to projects that catch my eye. Other than the academics part of my life, I am really fond of Football, Badminton and, to an extent, Basketball. Not really a hardcore
+                        gamer but still love the classics like FIFA and NBA. Have recently developed a love for languages and the various aspect that each language possesses. Also am really fond of contributing Education wise, and teaching in general.
+                        I do read up Mangas in my free times, so feel free to drop a suggestion
+                    </div>
+                </div>
+                <div class="side_about">
+
+                </div>
+            </div>
+            <div class="timeline_main_item">
+                <p class="text_timeline">21st February,2001 I was born in Thane, Mahrashtra. Moved to Delhi within a year and joined NK Bagrodia Public School</p>
+                <p class="text_timeline">2009, First time I became interested in the black box called Computer</p>
+                <p class="text_timeline">2012, Shifted to Mumbai from Delhi, joined Srimati Sulochanadevi Singhani School</p>
+                <p class="text_timeline">2016, Started learning and enjoying coding. First Language learnt: Java</p>
+                <p class="text_timeline">2019, Shifted to Hyderabad to join IIIT-Hyderabad so as to pursue Computational Linguistics</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="third_section" class="full_section">
+        <div id="boxes">
+            <div class="main_box">
+                <div class="skill_bars">
+                    <div id="HTML">
+                        <p id="text_skills">HTML and CSS</p>
+                        <div class="contain_skill">
+                            <div class="skills html"></div>
+                        </div>
+                    </div>
+                    <div id="JavaScript">
+                        <p id="text_skills">JavaScript</p>
+                        <div class="contain_skill">
+                            <div class="skills js"></div>
+                        </div>
+                    </div>
+                    <div id="Cpp">
+                        <p id="text_skills">Competitive Programming</p>
+                        <div class="contain_skill">
+                            <div class="skills cp"></div>
+                        </div>
+                    </div>
+                    <div id="Language">
+                        <p id="text_skills">Language Analysis</p>
+                        <div class="contain_skill">
+                            <div class="skills lang"></div>
+                        </div>
+                    </div>
+                    <div id="Android Studio">
+                        <p id="text_skills">Android App Development</p>
+                        <div class="contain_skill">
+                            <div class="skills assembly"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side_third">
+            <div class="header_third">
+                Skills
+            </div>
+            <br>
+            <div id="body_skills">
+                I have always been interested in learning new stuff and skill. I have started many, forgotten some of them midway, tried to complete a bit of them and completed a few of them. Even at this moment, I am exploring and learning new skills in various fields
+                related to Computer Science, Linguistics and some of the soft skills.
+            </div>
+        </div>
+    </section>
+    <section id="fourth_section" class="full_section">
+        <div id="contact_text">
+            <div id="header_contact">
+                Contact Me
+            </div>
+            <div id="body_contact">
+                I am always open to connect to people and get in touch with them. Feel free to contact me via any of the given media.
+            </div>
+        </div>
+        <div id="contact_image">
+            <div class="side_contact"></div>
+            <div class="main_image">
+                <div class="social" id="fb" style="margin-bottom: 0;">
+                    <div class="logo">
+                        <img id="facebook_image" src="img/facebook.png" alt="Facebook Logo" height="50px" width="60px">
+                    </div>
+                    <div class="text_contact">
+                        Shivansh Subramanian
+                    </div>
+                </div>
+                <div class="social" style="margin-top:0; margin-bottom: 0;">
+                    <div class="logo">
+                        <img id="instagram_logo" src="img/instagram.jpeg" alt="Instagram Logo" height="50px" width="60px">
+                    </div>
+                    <div class="text_contact">
+                        shivansh._.21
+                    </div>
+                </div>
+                <div class="social" style="margin-top:0; margin-bottom: 0;">
+                    <div class="logo">
+                        <img id="github_logo" src="img/github-image-796x418.png" alt="Github Logo" height="50px" width="75px">
+                    </div>
+                    <div class="text_contact">
+                        AurumnPegasus
+                    </div>
+                </div>
+                <div class="social" style="margin-top:0; margin-bottom: 0;">
+                    <div class="logo">
+                        <img id="gmail_logo" src="img/gmail.png" alt="Gmail Logo" height="50px" width="75px">
+                    </div>
+                    <div class="text_contact">
+                        subramanian.shivansh@gmail.com
+                    </div>
+                </div>
+                <div class="social" style="margin-top:0; margin-bottom: 0;">
+                    <div class="logo">
+                        <img id="address_logo" src="img/home--v3.png" alt="Home Icon" height="50px" width="60px">
+                    </div>
+                    <div class="text_contact">
+                        219 Bakul Nivas, IIIT-Hyderabad, Hyderabad, Telangana, India (500032)
+                    </div>
+                </div>
+            </div>
+            <div class="side_contact"></div>
+        </div>
+    </section>
+    <section id="fifth_section" class="full_section">
+        <div class="text_fifth">
+            <div class="side_fifth">
+
+            </div>
+            <div class="main_fifth">
+                <div class="side_main_fifth">
+
+                </div>
+                <div class="main_main_fifth">
+                    <div class="choice" id="pictures">
+                        <div class="text_entry">
+                            Picture Carousel
+                        </div>
+                        <div class="button_goto">
+                            <button class="ref_page"><a href="html/picture.html">Pictures</a></button>
+                        </div>
+                    </div>
+                    <div class="choice" id="table">
+                        <div class="text_entry">
+                            Data Table
+                        </div>
+                        <div class="button_goto">
+                            <button class="ref_page"><a href="html/table.html">Table</a></button>
+                        </div>
+                    </div>
+                    <div class="choice" id="visit_counter">
+                        <div class="text_entry">
+                            Visitor Counter
+                        </div>
+                        <div class="button_goto">
+                            <button class="ref_page"><a href="html/visits.html">counter</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="side_main_fifth">
+
+                </div>
+            </div>
+            <div class="side_fifth">
+
+            </div>
+        </div>
+        <div class="go">
+            <div class="side_go">
+
+            </div>
+            <div class="main_go">
+                <div class="head_main_go">
+                    ISS Assignment
+                </div>
+                <div class="body_main_go">
+                    Thank you for having a look at my website. Now, to the main part where I get graded, Please click the following buttons to check the satisfactory pages for the given criteria
+                </div>
+            </div>
+            <div class="side_go">
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/backToTop.js"></script>
+</body>
+
+</html>
